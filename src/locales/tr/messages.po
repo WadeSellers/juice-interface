@@ -279,6 +279,10 @@ msgstr "Tüm varlıklar"
 msgid "All changes will be applied to the <0>upcoming</0> funding cycle."
 msgstr "Tüm değişiklikler <0>yaklaşan</0> finansman döngüsüne uygulanacaktır."
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "All events"
+msgstr ""
+
 #: src/components/shared/forms/BudgetForm.tsx
 #: src/components/v2/V2Create/tabs/FundingTab/FundingTabContent.tsx
 msgid "All funds can be distributed by the project. The project will have no overflow (the same as setting the target to infinity)."
@@ -650,6 +654,14 @@ msgstr "{0} dağıt"
 msgid "Distributed"
 msgstr "Dağıtıldı"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Funds"
+msgstr ""
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Reserves"
+msgstr ""
+
 #: src/components/Landing/QAs.tsx
 msgid "Do I have to make my project open source to use Juicebox as its business model?"
 msgstr "Juicebox'ı iş modeli olarak kullanmak için projemi açık kaynak yapmak zorunda mıyım?"
@@ -699,6 +711,10 @@ msgstr ""
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
 msgid "Duration"
 msgstr "Süre"
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "ERC20 Deployed"
+msgstr ""
 
 #: src/components/Landing/index.tsx
 msgid "ERC20 community tokens"
@@ -1033,7 +1049,7 @@ msgid "Light theme"
 msgstr "Aydınlık tema"
 
 #: src/components/Projects/index.tsx
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/modals/ParticipantsModal.tsx
 msgid "Load more"
 msgstr "Daha fazla yükle"
@@ -1110,7 +1126,7 @@ msgstr "Yeni"
 msgid "No"
 msgstr "Hayır"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "No activity yet"
 msgstr "Henüz etkinlik yok"
 
@@ -1187,6 +1203,10 @@ msgstr "Bu projenin sahibinin cüzdanındaki diğer varlıklar."
 msgid "Overflow is created if your project's balance exceeds your funding cycle target. Overflow can be redeemed by your project's token holders."
 msgstr "Projenizin bakiyesi finansman döngüsü hedefinizi aşarsa taşma oluşur. Taşma, projenizin token sahipleri tarafından talep edilerek kullanılabilir."
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Paid"
+msgstr ""
+
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v2/V2Project/V2PayButton.tsx
 msgid "Paid as <0/>"
@@ -1207,7 +1227,6 @@ msgstr "Duraklatıldı"
 
 #: src/components/shared/formItems/ProjectPayButton.tsx
 #: src/components/v1/V1Create/ConfirmDeployProject.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v1/V1Project/modals/V1ConfirmPayOwnerModal/index.tsx
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
@@ -1320,6 +1339,10 @@ msgstr "Programlanabilir harcama"
 msgid "Project"
 msgstr "Proje"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Project Created"
+msgstr ""
+
 #: src/components/v1/V1Project/Rewards/IssueTickets.tsx
 msgid "Project Token"
 msgstr "Proje Token'ı"
@@ -1399,6 +1422,10 @@ msgid "Projects using a reserved rate of {reservedRateRiskyMin}% or more will ap
 msgstr "%{reservedRateRiskyMin} veya daha fazla ayrılmış oran kullanan projeler, projenizin ödenmesi karşılığında nispeten az sayıda token alınacağından, katkıda bulunanlar açısından riskli görünecektir."
 
 #: src/components/Landing/index.tsx
+msgid "Protocol stats"
+msgstr ""
+
+#: src/components/Landing/index.tsx
 msgid "Public goods and services"
 msgstr "Kamu malları ve hizmetleri"
 
@@ -1461,10 +1488,6 @@ msgstr "Yaklaşan finansmanı yeniden yapılandır"
 msgid "Recurring target"
 msgstr ""
 
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
-msgid "Redeem"
-msgstr "Talep edin"
-
 #: src/components/v1/V1Project/Rewards/ManageTokensModal.tsx
 msgid "Redeem your {tokensLabel} for a portion of the project's overflow. Any {tokensLabel} you redeem will be burned."
 msgstr ""
@@ -1479,6 +1502,10 @@ msgstr ""
 
 #: src/components/v1/V1Project/modals/RedeemModal.tsx
 msgid "Redeem {tokensTextLong} for ETH"
+msgstr ""
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Redeemed"
 msgstr ""
 
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
@@ -1526,10 +1553,6 @@ msgstr "Ayrılmış token'lar"
 #: src/components/v1/FundingCycle/ReservedTokens.tsx
 msgid "Reserved {0}"
 msgstr "Ayrılmış {0}"
-
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
-msgid "Reserves"
-msgstr "Ayrılanlar"
 
 #: src/components/Navbar/MenuItems.tsx
 #: src/components/Navbar/Mobile/ResourcesDropdownMobile.tsx
@@ -2140,7 +2163,6 @@ msgid "With Juicebox, projects are built and maintained by motivated punks getti
 msgstr "Juicebox ile projeler, motive olmuş punklar tarafından şeffaf bir şekilde ödenir ve destekledikleri projeler başarılı oldukça ödüllendirilen bir kullanıcı ve kullanıcı topluluğu tarafından finanse edilir ve sürdürülür."
 
 #: src/components/v1/FundingCycle/modals/WithdrawModal.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "Withdraw"
 msgstr "Çek"
 
@@ -2395,7 +2417,7 @@ msgstr "{0}/{1} çekildi"
 msgid "{0}{1}"
 msgstr "{0}{1}"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "{count} total"
 msgstr "toplam {count}"
 

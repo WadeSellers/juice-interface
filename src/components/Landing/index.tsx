@@ -16,6 +16,12 @@ import { Link } from 'react-router-dom'
 
 import ExternalLink from 'components/shared/ExternalLink'
 
+import useSubgraphQuery from 'hooks/SubgraphQuery'
+
+import { formatWad } from 'utils/formatNumber'
+
+import CurrencySymbol from 'components/shared/CurrencySymbol'
+
 import { ThemeOption } from 'constants/theme/theme-option'
 
 import Faq from './Faq'
@@ -23,9 +29,6 @@ import Footer from './Footer'
 import Payments from './Payments'
 import TrendingSection from './TrendingSection'
 import { OverflowVideoLink } from './QAs'
-import useSubgraphQuery from 'hooks/SubgraphQuery'
-import { formatWad } from 'utils/formatNumber'
-import CurrencySymbol from 'components/shared/CurrencySymbol'
 
 const BigHeader = ({ text }: { text: string }) => (
   <h1

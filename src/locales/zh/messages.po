@@ -279,6 +279,10 @@ msgstr "所有资产"
 msgid "All changes will be applied to the <0>upcoming</0> funding cycle."
 msgstr "所有更改会应用于 <0>之后的</0> 筹款周期。"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "All events"
+msgstr ""
+
 #: src/components/shared/forms/BudgetForm.tsx
 #: src/components/v2/V2Create/tabs/FundingTab/FundingTabContent.tsx
 msgid "All funds can be distributed by the project. The project will have no overflow (the same as setting the target to infinity)."
@@ -650,6 +654,14 @@ msgstr "分发 {0}"
 msgid "Distributed"
 msgstr "已分发"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Funds"
+msgstr ""
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Reserves"
+msgstr ""
+
 #: src/components/Landing/QAs.tsx
 msgid "Do I have to make my project open source to use Juicebox as its business model?"
 msgstr "要把 Juicebox 用作项目的商业模式的话，我必须把项目进行开源吗？"
@@ -699,6 +711,10 @@ msgstr "由于其公共性质，任何对合约的恶意利用都可能产生不
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
 msgid "Duration"
 msgstr "持续时间"
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "ERC20 Deployed"
+msgstr ""
 
 #: src/components/Landing/index.tsx
 msgid "ERC20 community tokens"
@@ -1033,7 +1049,7 @@ msgid "Light theme"
 msgstr "浅色主题"
 
 #: src/components/Projects/index.tsx
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/modals/ParticipantsModal.tsx
 msgid "Load more"
 msgstr "加载更多"
@@ -1110,7 +1126,7 @@ msgstr "新"
 msgid "No"
 msgstr "取消"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "No activity yet"
 msgstr "暂无动态"
 
@@ -1187,6 +1203,10 @@ msgstr "项目拥有者钱包内的其他资产"
 msgid "Overflow is created if your project's balance exceeds your funding cycle target. Overflow can be redeemed by your project's token holders."
 msgstr "如果您项目的资金余额超出您的筹款周期目标，就会产生溢出。项目代币持有人可以赎回溢出部分资金。"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Paid"
+msgstr ""
+
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v2/V2Project/V2PayButton.tsx
 msgid "Paid as <0/>"
@@ -1207,7 +1227,6 @@ msgstr "已暂停"
 
 #: src/components/shared/formItems/ProjectPayButton.tsx
 #: src/components/v1/V1Create/ConfirmDeployProject.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v1/V1Project/modals/V1ConfirmPayOwnerModal/index.tsx
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
@@ -1320,6 +1339,10 @@ msgstr "可编程的开支"
 msgid "Project"
 msgstr "项目"
 
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Project Created"
+msgstr ""
+
 #: src/components/v1/V1Project/Rewards/IssueTickets.tsx
 msgid "Project Token"
 msgstr "项目代币"
@@ -1399,6 +1422,10 @@ msgid "Projects using a reserved rate of {reservedRateRiskyMin}% or more will ap
 msgstr "项目使用的代币保留率大于或等于{reservedRateRiskyMin}% 会让捐款人觉得项目不安全，因为这种情况下给您的项目捐款从而获得的代币数量会比较少。"
 
 #: src/components/Landing/index.tsx
+msgid "Protocol stats"
+msgstr ""
+
+#: src/components/Landing/index.tsx
 msgid "Public goods and services"
 msgstr "公共产品和服务"
 
@@ -1461,10 +1488,6 @@ msgstr "重新配置之后的筹款"
 msgid "Recurring target"
 msgstr "周期性目标"
 
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
-msgid "Redeem"
-msgstr "赎回"
-
 #: src/components/v1/V1Project/Rewards/ManageTokensModal.tsx
 msgid "Redeem your {tokensLabel} for a portion of the project's overflow. Any {tokensLabel} you redeem will be burned."
 msgstr "赎回你的 {tokensLabel} 来获取一部分项目的溢出资金。用于赎回的 {tokensLabel} 将会被燃烧掉。"
@@ -1480,6 +1503,10 @@ msgstr "燃烧 {tokensLabel} 来赎回 ETH"
 #: src/components/v1/V1Project/modals/RedeemModal.tsx
 msgid "Redeem {tokensTextLong} for ETH"
 msgstr "燃烧 {tokensTextLong} 来赎回 ETH"
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Redeemed"
+msgstr ""
 
 #: src/components/v2/V2Create/DeployProjectModal/index.tsx
 #: src/components/v2/V2Create/tabs/TokenTab/TokenTabContent.tsx
@@ -1526,10 +1553,6 @@ msgstr "保留代币"
 #: src/components/v1/FundingCycle/ReservedTokens.tsx
 msgid "Reserved {0}"
 msgstr "已保留 {0}"
-
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
-msgid "Reserves"
-msgstr "保留"
 
 #: src/components/Navbar/MenuItems.tsx
 #: src/components/Navbar/Mobile/ResourcesDropdownMobile.tsx
@@ -2140,7 +2163,6 @@ msgid "With Juicebox, projects are built and maintained by motivated punks getti
 msgstr "积极进取的朋克们通过 Juicebox 构建和维护项目，并以透明的方式获得报酬。用户和赞助者组成的社区对项目给予资助，而他们则可以在项目成功时获得回报。"
 
 #: src/components/v1/FundingCycle/modals/WithdrawModal.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "Withdraw"
 msgstr "提取"
 
@@ -2395,7 +2417,7 @@ msgstr "已提取 {0}/{1}"
 msgid "{0}{1}"
 msgstr "{0}{1}"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "{count} total"
 msgstr "总共 {count}"
 
